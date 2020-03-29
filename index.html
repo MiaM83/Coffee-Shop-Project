@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe School</title>
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Sen&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+   
+    
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="">flavours</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageTopToggler" aria-controls="pageTopToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="pageTopToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Our Ingredients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Workshops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:miol225@cphbusiness.dk">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Coffee Shop Flavours</h1>
+          <p class="lead">A place for cheerfull time, learning and a tasty cup of coffee. Grab a cup to go 
+              or pick a spot and enjoy the view from our comfortable seating area. 
+          </p>
+        </div>
+      </div>
+
+      <div class="karussel">
+      <div id="carouselFrontPhotos" class="carousel slide carousel-fade container" data-ride="carousel" data-interval="4000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="coffeePhoto" src="images/Coffee and book.png" class="d-block w-100" alt="First photo">
+          </div>
+          <div class="carousel-item">
+            <img class="coffeePhoto" src="images/coffee pad.png" class="d-block w-100" alt="Second Photo">
+          </div>
+          <div class="carousel-item">
+            <img class="coffeePhoto" src="images/coffee with macrons.png" class="d-block w-100" alt="Third Photo">
+          </div>
+          <div class="carousel-item">
+            <img class="coffeePhoto" src="images/Morning coffee.png" class="d-block w-100" alt="Fourth Photo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container competitionBg">
+    <div class="row">
+        <div class="buttonArea">
+            <h3> Free coffee today? </h3>
+            <p> Choose three buttons, click on them.<br> The one with the highest 
+                value is our gift to you today
+            </p>
+            <br>
+            <br>
+            <h3 id="reward"></h3>
+            <p id="rewardInstructions"></p>
+        </div>
+
+
+        <div class="buttonArea">
+            <div class="buttons1" col-lg-4>
+                <button class="nyeKnapper" id="et"></button>
+                <button class="nyeKnapper" id="to"></button>
+                <button class="nyeKnapper" id="tre"></button>
+            </div>
+            <div class="buttons2" col-lg-4>
+                <button class="nyeKnapper" id="fire"></button>
+                <button class="nyeKnapper" id="fem"></button>
+                <button class="nyeKnapper" id="seks"></button>
+            </div>
+            <div class="buttons3" col-lg-4>
+                <button class="nyeKnapper" id="syv"></button>
+                <button class="nyeKnapper" id="otte"></button>
+                <button class="nyeKnapper" id="ni"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <h2>Workshops</h2>
+    <p>We are very proud of our products. And we also believe in sharing knowledge. So two years ago,
+        we decided to create workshops, where we can share our passion with you. We will seek to inspire your
+        with our recipes and good quality ingredients. Attend the workshop with a friend, family members
+        or alone. We keep the groups small, so we can fit in our cosy kitchen.</p>
+    <h5>The workshop selection for this season</h5>
+    <div class="row">
+        <div class="workshops col-lg-4">
+            <h4>Cupcakes</h4>
+            <img class="workshopPhotos" src="images/Cupcakes2.png" alt="Phot of Cupcakes">
+            <p>Vanilla, pumpkin, strawberry... what is your favorit? Learn hands-on to make delicious 
+                cupcakes from scratch. Bring home with you, what you can't eat here
+            </p>
+        </div>
+
+        <div class="workshops col-lg-4">
+            <h4>Coffees</h4>
+            <img class="workshopPhotos" src="images/Coffeeees.png" alt="Photo of Coffees">
+            <p>Master brewing arts and impress your friends with a creamy foam latte made by 
+                yourself. We will tell you the secrets of at least three different kinds of coffee</p>
+        </div>
+
+        <div class="workshops col-lg-4">
+            <h4>Beans History</h4>
+            <img class="workshopPhotos" src="images/Coffee Beans.png" alt="Photo of Coffee Beans">
+            <p>Once you are familiar with the fascinating history of coffee and the long travel of a bean,
+                 you will enjoy it even more. Explore the rich variation of different flavours
+            </p>
+        </div>         
+    </div>
+</div>
+
+<div class="signUp">
+    <p><b>Send a request or sign up here</b> 👇</i></p>
+<div class="signUpButton">
+    <a class="btn btn-secondary btn-lg btn-block" href="mailto:miol225@cphbusiness.dk" role="button">Send a request</a>
+</div>
+</div>
+
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.instagram.com/?hl=da">Instagram</a>
+    <a class="footer-link" href="https://www.facebook.com">Facebook</a>
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <p class="copyright">© 2020 Mia O.</p>
+  </div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

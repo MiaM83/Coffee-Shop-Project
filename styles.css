@@ -1,0 +1,140 @@
+/* Jumbotron */
+
+.jumbotron{
+    background-color: rgb(231, 118, 108);
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+.display-4{
+    font-family: "Sen", sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.lead{
+    font-family: "Sen", sans-serif;
+    font-weight: lighter;
+    margin-top: rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Karussel */
+
+.karussel{
+    background-color: rgb(247, 247, 113);
+    margin: 0;
+}
+
+.coffeePhoto{
+    width: 800px;
+    border: 3px solid;
+    border-color: rgb(94, 92, 76);
+}
+
+.carousel-inner{
+    text-align: center;
+    padding: 4% 0 6%;
+}
+
+
+/* RABAT */
+
+
+h3{
+    font-size: 2rem;
+}
+
+.buttonArea{
+    margin: 5%;
+}
+
+.buttons1{
+    border-style: solid solid hidden;
+    color: rgb(94, 92, 76);
+}
+.buttons2{
+    border-style: hidden solid;
+    color: rgb(94, 92, 76);
+}
+
+.buttons3{
+    border-style: hidden solid solid;
+    color: rgb(94, 92, 76);
+}
+
+.nyeKnapper{
+    border: 5px solid rgba(154, 189, 174, 0.671);
+    border-radius: 45px;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-image: url("images/coffee\ drawing2.png");
+    background-size: 70px;
+    background-position: top;
+}
+
+#reward{
+    text-shadow: 1px 1px 2px pink;
+}
+
+
+/* WORKSHOPS */
+
+h2{
+    padding-bottom: 2%;
+}
+
+.container-fluid{
+    padding: 10% 15% 5%;
+    background-color: rgb(247, 247, 113);
+}
+
+h4{
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+.workshopPhotos{
+    width: 300px;
+    padding-bottom: 8px;
+}
+
+/* SIGN UP */
+
+.signUp{
+    text-align: center;
+    background-color: rgb(247, 247, 113);
+}
+
+.signUpButton{
+    margin: 0 30%;
+    padding-bottom: 3%;
+}
+
+.bottom-container{
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+
+/* REQUEST - ikke brugt alligevel*/
+
+input {
+    width: 100pix;
+    box-sizing: border-box;
+} 
+
+textarea {
+    display : block;
+    padding : 10px;
+    margin  : 10px 0 0 10px;
+    width   : 20%;
+    height  : 90%;
+  
+    border-right: 1px solid;
+  
+    /* resize  : none; */
+    overflow: auto;
+  }
